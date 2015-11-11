@@ -26,9 +26,9 @@ else
 	dayName = day.strftime('%A')
 end
 
-puts dayName + ' is going to be ' + 
+puts 'Hey, sucka! Here\'s the forcast for ' + dayName + '. I pity the fool that doesn\'t bring a jacket. It\'s going to be ' + 
 forecast['text'].downcase + ' with a low of ' + 
 forecast['low'].to_s + ' and a high of ' + 
-forecast['high'].to_s
+forecast['high'].to_s + '. Take it from me, Mr. T'
 end
 
